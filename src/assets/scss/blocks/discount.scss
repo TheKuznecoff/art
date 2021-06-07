@@ -1,0 +1,32 @@
+.discount {
+	padding-bottom: 80px;
+}
+.discount__item {
+	position: relative;
+	background: $primary;
+	padding: 50px 0 37px 45px;
+	background-image: url(../images/Frame215.png);
+	background-repeat: no-repeat;
+	background-size: 632px 354px;
+	background-position: 478px 0;
+	overflow: hidden;
+}
+.discount__item::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 605px;
+	top: 13px;
+	z-index: 1000;
+	background-image: url(../images/image13.png);
+	background-repeat: no-repeat;
+	background-size: 413px 345px;
+}
+.discount__title {
+	font-weight: 500;
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+	color: $white;
+	margin-bottom: 20px;
+}

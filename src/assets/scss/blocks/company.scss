@@ -1,0 +1,31 @@
+.company {
+	position: relative;
+	&__photo {
+		height: 600px;
+	}
+	&__img {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		z-index: 1;
+
+		transform: translateY(-50%);
+	}
+	&__title {
+		font-weight: 400;
+		font-size: 4.1rem;
+		line-height: 4.8rem;
+
+		color: $secondary;
+		span {
+			color: $primary;
+		}
+	}
+	&__text {
+		font-weight: 400;
+		font-size: 1.7rem;
+		line-height: 1.5;
+
+		color: #727272;
+	}
+}

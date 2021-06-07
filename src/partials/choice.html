@@ -1,0 +1,146 @@
+<section class="choice">
+    <div class="container">
+
+        <div class="row bg-white mx-0 px-0 b-shadow">
+            <div class="col-md-12">
+                <div class="choice__title"><span>1</span>Нажмите на нужный балкон</div>
+            </div>
+            <div class="col-md-12 d-flex align-items-center">
+                <div class="col-2">
+                    <img class="choice__img" src="assets/images/Frame1.jpg" alt="Frame">
+                </div>
+                <div class="col-2">
+                    <img class="choice__img" src="assets/images/Frame2.jpg" alt="Frame">
+                </div>
+                <div class="col-2">
+                    <img class="choice__img" src="assets/images/Frame3.jpg" alt="Frame">
+                </div>
+                <div class="col-2">
+                    <img class="choice__img" src="assets/images/Frame4.jpg" alt="Frame">
+                </div>
+                <div class="col-2">
+                    <img class="choice__img" src="assets/images/Frame5.jpg" alt="Frame">
+                </div>
+                <div class="col-2">
+                    <img class="choice__img" src="assets/images/Frame6.jpg" alt="Frame">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row mx-0 px-0">
+            <div class="container mx-0 px-0">
+                <div class="choice__item">
+                    <div
+                        class="col-5 bg-white d-flex align-items-center flex-column mx-0 px-0 choice__left b-shadow">
+                        <div class="choice__title"><span>2</span>Выберите размеры</div>
+                        <div class="col-md-9 d-flex align-items-center flex-column">
+                            <img class="choice__img" src="assets/images/Frame7.jpg" alt="Frame">
+                            <form>
+                                <input class="choice__input" type="number" value="0" min="0" max="100">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-7 bg-white d-flex align-items-center flex-column mx-0 px-0 choice__right b-shadow">
+                        <div class="choice__title"><span>3</span>Выберите тип остекления</div>
+                        <div class="col-12 d-flex justify-content-around">
+                            <div class="col-2 d-flex flex-column align-items-center">
+                                <img class="snowsun__img" src="assets/images/snow.jpg" alt="snow">
+                                <div class="row">
+                                    <div class="col-12 px-0">
+                                        <form class="choice__radio" action="#">
+                                            <div class="radio">
+                                                <label class="radio__label" for="radio_1">Холодное</label>
+                                                <input class="radio__input" name="snow" type="radio" id="radio_1"
+                                                    checked>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-2 d-flex flex-column align-items-center">
+                                <img class="snowsun__img" src="assets/images/sun.jpg" alt="snow">
+                                <div class="row">
+                                    <div class="col-12 px-0">
+                                        <form class="choice__radio" action="#">
+                                            <div class="radio">
+                                                <label class="radio__label" for="radio_2">Теплое</label>
+                                                <input class="radio__input" name="sun" type="radio" id="radio_2">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 d-flex flex-column align-items-center">
+                                <img class="snowsun__img" src="assets/images/snowsun.jpg" alt="snow">
+                                <div class="row">
+                                    <div class="col-12 px-0">
+                                        <form class="choice__radio" action="#">
+                                            <div class="radio">
+                                                <label class="radio__label" for="radio_3">Полутеплое</label>
+                                                <input class="radio__input" name="snowsun" type="radio"
+                                                    id="radio_3">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 offset-md-5">
+                <div class="choice__inner b-shadow">
+                    <h2 class="choice__title"><span>4</span>Дополнительные операции</h2>
+                    <div class="col-12 d-flex justify-content-around mt-5">
+                        <div class="select__left">
+                            <form class="select" action="#">
+                                <label for="topic">Вынос остекления</label>
+                                <select name="topic" id="topic">
+                                    <option value="1">Не требуется</option>
+                                    <option value="2">Требуется</option>
+                                </select>
+                            </form>
+                            <form class="select" action="#">
+                                <label for="topic">Балконная крыша</label>
+                                <select name="topic" id="topic">
+                                    <option value="1">Не требуется</option>
+                                    <option value="2">Требуется</option>
+                                </select>
+                            </form>
+                        </div>
+
+                        <div class="select__right">
+                            <form class="select" action="#">
+                                <label for="topic">Кладка из пеноблока</label>
+                                <select name="topic" id="topic">
+                                    <option value="1">Не требуется</option>
+                                    <option value="2">Требуется</option>
+                                </select>
+                            </form>
+                            <form class="select" action="#">
+                                <label for="topic">Москитная сетка</label>
+                                <select name="topic" id="topic">
+                                    <option value="1">Не требуется</option>
+                                    <option value="2">Требуется</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 offset-md-7 d-flex flex-column align-items-center">
+                <label class="choice__label" for="choice__btn">Итог:<span>0 рублей</span></label>
+                <button class="text-center btn choice__btn">Вызвать замерщика</button>
+            </div>
+        </div>
+    </div>
+</section>

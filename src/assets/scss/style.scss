@@ -1,0 +1,35 @@
+@import "vars";
+@import "libs/bootstrap/bootstrap";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f6f6f6;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    color: $secondary;
+}
+ul li {
+    list-style: none;
+}
+
+/* Blocks */
+@import "blocks/aside";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/span";
+@import "blocks/btn";
+@import "blocks/options";
+@import "blocks/services";
+@import "blocks/discount";
+@import "blocks/form";
+@import "blocks/stages";
+@import "blocks/choice";
+@import "blocks/works";
+@import "blocks/advantages";
+@import "blocks/company";
+@import "blocks/promotions";

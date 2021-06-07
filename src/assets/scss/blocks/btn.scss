@@ -1,0 +1,78 @@
+.btn {
+	display: inline;
+	width: 255px;
+	height: 54px;
+	font-size: 1.5rem;
+	background: $primary;
+	color: $white;
+	border: none;
+	padding: 18px 42px;
+	font-weight: 500;
+	line-height: 1.7rem;
+	transition: all 0.5s ease;
+	&:hover {
+		background: #16cae8;
+	}
+}
+.options__btn {
+	padding: 24px 16px;
+	display: inline;
+	font-size: 1.9rem;
+	background: $primary;
+	color: $white;
+	border: none;
+	font-weight: 500;
+	line-height: 2.2rem;
+	transition: all 0.5s ease;
+	&:after {
+		content: "";
+		border: solid $white;
+		border-width: 0 3px 3px 0;
+		display: inline-block;
+		padding: 3px;
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		margin-left: 11px;
+	}
+	&:hover {
+		background: #16cae8;
+	}
+}
+.feedback-form-group__btn {
+	display: inline-block;
+	font-size: 1.5rem;
+	padding: 18px 42px;
+	font-weight: 500;
+	line-height: 1.8rem;
+	width: 290px;
+	height: 54px;
+	border: none;
+	vertical-align: top;
+	text-align: center;
+	color: $white;
+	text-decoration: none;
+	background: $secondary;
+	transition: all 0.5s ease;
+	margin-top: 12px;
+	&:hover {
+		background: #08617b;
+	}
+}
+
+.choice__btn {
+	margin-top: 17px;
+}
+
+
+
+@media (max-width: 992px) {
+	.btn {
+		margin-top: 39px;
+	}
+}
+
+@media (max-width: 768px) {
+	.btn {
+		width: 100%;
+	}
+}
